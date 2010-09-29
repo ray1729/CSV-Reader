@@ -145,7 +145,7 @@ reference keyed on the specified columns.
 Boolean (default: false). If set to true, the first line of input will
 be parsed and used to set the column names.
 
-=item discard_header
+=item skip_header
 
 Boolean (default: false). If set to true, the first line of input will be
 read and discarded.
