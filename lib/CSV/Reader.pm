@@ -46,6 +46,9 @@ has _csv => (
     handles  => [ 'eof' ]
 );
 
+=for Pod::Coverage::TrustPod
+    BUILD
+=cut
 
 sub BUILD {
     my $self = shift;
