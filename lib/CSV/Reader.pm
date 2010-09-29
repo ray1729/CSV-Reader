@@ -48,6 +48,7 @@ has _csv => (
 
 =for Pod::Coverage::TrustPod
     BUILD
+
 =cut
 
 sub BUILD {
