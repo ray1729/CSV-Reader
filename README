@@ -1,0 +1,7 @@
+A handy wrapper around the Text::CSV_XS Perl module for reading CSV
+data, taking away some of the boilerplate code for simple usage.
+
+To read CSV data from STDIN:
+
+my $csv = CSV::Reader->new;
+my $aref = $csv->read;
